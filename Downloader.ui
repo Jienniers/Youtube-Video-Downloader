@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>584</width>
+    <height>487</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MGB Video Downloader</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Icons/download.png</normaloff>Icons/download.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(106, 107, 104);</string>
+      </property>
+      <widget class="QWidget" name="page">
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="Url_label">
+             <property name="styleSheet">
+              <string notr="true">font: 36pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="text">
+              <string>Url:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="Url_linedit">
+             <property name="styleSheet">
+              <string notr="true">font: 36pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+border-radius:7px;
+border:2px solid rgb(37, 150, 255);
+</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_2">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="Download_btn">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+border:3px solid rgb(46, 140, 255);
+font: 48pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+border-radius:10px;
+}
+QPushButton:hover{
+border:2px solid rgb(29, 93, 176);
+}
+QPushButton:Pressed{
+border:2px solid rgb(33, 73, 255);
+}</string>
+             </property>
+             <property name="text">
+              <string>Download</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="frame_4">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>100</height>
+              </size>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <widget class="QLabel" name="Downalod_location_label">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>20</y>
+                <width>231</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);
+font: 20pt &quot;MS Shell Dlg 2&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Download Location:</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="Download_location_linedit">
+              <property name="geometry">
+               <rect>
+                <x>250</x>
+                <y>20</y>
+                <width>321</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 36pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+border-radius:7px;
+border:2px solid rgb(37, 150, 255);
+</string>
+              </property>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignLeft">
+         <widget class="QFrame" name="frame_3">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QLabel" name="Status_label">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 255, 255);
+font: 48pt &quot;MS Shell Dlg 2&quot;;</string>
+             </property>
+             <property name="text">
+              <string>Status:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="Status_linedit">
+             <property name="minimumSize">
+              <size>
+               <width>358</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(255, 255, 255);
+font: 48pt &quot;MS Shell Dlg 2&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>584</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuYoutube">
+    <property name="title">
+     <string>Youtube</string>
+    </property>
+    <addaction name="actionVideo_Title"/>
+    <addaction name="actionVideo_Thumbnail_URl"/>
+   </widget>
+   <addaction name="menuYoutube"/>
+  </widget>
+  <action name="actionVideo_Title">
+   <property name="text">
+    <string>Video Title</string>
+   </property>
+  </action>
+  <action name="actionVideo_Thumbnail_URl">
+   <property name="text">
+    <string>Video Thumbnail URl</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
