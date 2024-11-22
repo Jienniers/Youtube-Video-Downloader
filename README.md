@@ -40,9 +40,8 @@ Enter the URL of the video in the URL box and then Click on Youtube then Video T
 Enter URL in the URL text box then click on Youtube Thumbnail URL you will be given URL of the thumbnail in the status text box.
 
 
-## Feedback
+## Support
 
-If you have any feedback, please reach out to us at 
-codeMaestroy105@outlook.com
+If you encounter any issues or have suggestions for improvement, please submit an issue on the GitHub repository.
 
 
